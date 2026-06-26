@@ -27,7 +27,7 @@ When a robot successfully returns to the base, it leaves pheromones along its pa
 Four experimental conditions were used to evaluate the robustness of the swarm algorithm:
 
 * **Baseline:** No robot failures and no sensor noise.
-* **Failures Only:** Robot failure rates of 0.05%, 0.1&, and 0.2%
+* **Failures Only:** Robot failure rates of 0.05%, 0.1%, and 0.2%
 * **Noise Only:** Sensor noise levels of 20 px(low), 50 px(medium), and 100 px(high) with no robot failures.
 * **Failures + Noise:** Combined robot failures and sensor noise to evaluate swarm performance under multiple simultaneous disturbances.
 
