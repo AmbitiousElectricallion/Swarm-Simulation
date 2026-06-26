@@ -29,7 +29,7 @@ Four experimental conditions were used to evaluate the robustness of the swarm a
 * **Baseline:** No robot failures and no sensor noise.
 * **Failures Only:** Robot failure rates of 0.005%, 0.02%, and 0.05%. Just for clarification, failure is implemented as a per-timestep stochastic hazard, not a fixed proportion of the population. Likewise, the percentage here is the per-timestep failure probability per robot.
 * **Noise Only:** Sensor noise levels of 20 px(low), 50 px(medium), and 100 px(high) with no robot failures.
-* **Failures + Noise:** Combined robot failures and sensor noise to evaluate swarm performance under multiple simultaneous disturbances.
+  
 
 There were 10 trials conducted for each specific experiment. (100 Trials Total)
 
