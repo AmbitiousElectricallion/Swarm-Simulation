@@ -10,7 +10,7 @@ This project investigates how a decentralized swarm of autonomous robots can eff
 
 Each robot operates independently using only local information. Robots begin by exploring the environment through random movement. When a resource enters a robot's sensing radius, the robot moves toward its perceived location, collects the resource, and returns it to a central collection base. During the return trip,  the robot deposits pheromone trails that other robots can detect and follow, improving the swarm's ability to locate additional resources over time.
 
-The simulation was developed incrementally across ten versions, beginning with random exploration and gradually introducing resource collection, robot states, pheromone communication, robot failures, sensor noise, and performance metrics.
+The simulation was developed incrementally across ten versions (Python Version 3.11.9), beginning with random exploration and gradually introducing resource collection, robot states, pheromone communication, robot failures, sensor noise, and performance metrics.
 
 ---
 
