@@ -31,7 +31,7 @@ Four experimental conditions were used to evaluate the robustness of the swarm a
 * **Noise Only:** Sensor noise levels of 20 px(low), 50 px(medium), and 100 px(high) with no robot failures.
   
 
-There were 10 trials conducted for each specific experiment. (100 Trials Total)
+There were 20 trials conducted for each specific experiment. (140 Trials Total)
 
 All other simulation parameters, including swarm size, sensing radius, pheromone radius, and resource count, were held constant across experiments.
 
