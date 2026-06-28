@@ -2,7 +2,7 @@
 
 ## Problem
 
-This project investigates how a decentralized swarm of autonomous robots can efficiently collect resources in an unknown environment without relying on a central controller. The simulation explores how simple local behaviors produce coordinated group behaviors and examines how environmental uncertainty and root failures affect the swarm's overall performance.
+This project investigates how a decentralized swarm of autonomous robots can efficiently collect resources in an unknown environment without relying on a central controller. The simulation explores how simple local behaviors produce coordinated group behaviors and examines how environmental uncertainty and robot failures affect the swarm's overall performance.
 
 ---
 
@@ -48,6 +48,45 @@ Simulation metrics were recorded throughout each run and exported to CSV files f
 ## Research Report
 
 A complete research paper documenting the simulation design, experimental methodology, statistical analysis, and findings is available in `Swarm_Robustness_Report.pdf`.
+
+## Installation
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/AmbitiousElectricallion/Swarm-Simulation.git
+cd Swarm-Simulation
+```
+
+2. Install the required dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the simulation.
+
+```bash
+python main.py
+```
+
+(Replace `main.py` with your actual entry-point file if it has a different name.)
+
+## Repository Structure
+
+```
+Swarm-Simulation/
+│
+├── Swarm_Robustness_Report.pdf
+├── README.md
+├── requirements.txt
+├── versions/
+├── results/
+│   ├── raw_data/
+│   ├── processed_data/
+│   └── graphs/
+└── 
+```
 
 
 
