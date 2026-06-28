@@ -45,6 +45,9 @@ Performance was evaluated using:
 
 Simulation metrics were recorded throughout each run and exported to CSV files for later analysis and visualization.
 
+## Research Report
+
+A complete research paper documenting the simulation design, experimental methodology, statistical analysis, and findings is available in `Swarm_Robustness_Report.pdf`.
 
 
 
